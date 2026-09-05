@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MyTube</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">▶ MyTube</div>
+
+        <div class="search">
+            <input type="text" placeholder="Search videos...">
+            <button>Search</button>
+        </div>
+
+        <div class="account">
+            <button onclick="showLogin()">Sign In</button>
+            <button onclick="showSignup()">Sign Up</button>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="welcome">
+            <h1>Welcome to MyTube</h1>
+
+            <p>
+                Watch videos, share projects, and discover new creators.
+            </p>
+
+            <button class="guest" onclick="continueAsGuest()">
+                Continue as Guest
+            </button>
+        </section>
+
+
+        <section class="videos">
+
+            <h2>Popular Videos</h2>
+
+            <div class="video-grid">
+
+                <div class="video-card">
+                    <div class="thumbnail">VIDEO</div>
+                    <h3>My First Video</h3>
+                    <p>MyTube Creator</p>
+                </div>
+
+                <div class="video-card">
+                    <div class="thumbnail">VIDEO</div>
+                    <h3>My Gaming Project</h3>
+                    <p>Game Creator</p>
+                </div>
+
+                <div class="video-card">
+                    <div class="thumbnail">VIDEO</div>
+                    <h3>How I Made This Website</h3>
+                    <p>Developer</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 MyTube</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
